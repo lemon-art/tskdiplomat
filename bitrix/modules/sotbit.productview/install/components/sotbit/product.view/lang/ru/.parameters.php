@@ -1,0 +1,36 @@
+<?
+$MESS["IBLOCK_DETAIL_URL"] = "URL, ведущий на страницу с содержимым элемента";
+$MESS["IBLOCK_PRICES"] = "Цены";
+$MESS["IBLOCK_ELEMENT_COUNT"] = "Количество элементов для отображения";
+$MESS["IBLOCK_LINE_ELEMENT_COUNT"] = "Количество элементов выводимых в одной строке таблицы";
+$MESS["IBLOCK_PRICE_CODE"] = "Тип цены";
+$MESS["IBLOCK_BASKET_URL"] = "URL, ведущий на страницу с корзиной покупателя";
+$MESS["IBLOCK_ACTION_VARIABLE"] = "Название переменной, в которой передается действие";
+$MESS["IBLOCK_PRODUCT_ID_VARIABLE"] = "Название переменной, в которой передается код товара для покупки";
+$MESS["IBLOCK_SECTION_ID_VARIABLE"] = "Название переменной, в которой передается код группы";
+$MESS["IBLOCK_USE_PRICE_COUNT"] = "Использовать вывод цен с диапазонами";
+$MESS["IBLOCK_SHOW_PRICE_COUNT"] = "Выводить цены для количества";
+$MESS["IBLOCK_VAT_INCLUDE"] = "Включать НДС в цену";
+$MESS["SBT_PRODUCTVIEW_ID"] = "Идентификатор товара";
+$MESS["SBT_PRODUCTVIEW_CODE"] = "Символьный код";
+$MESS["SRP_MIN_BUYES"] = "Минимальное количество покупок товара";
+$MESS["CP_SRP_CONVERT_CURRENCY"] = "Показывать цены в одной валюте";
+$MESS["CP_SRP_CURRENCY_ID"] = "Валюта, в которую будут сконвертированы цены";
+$MESS["SBT_PRODUCTVIEW_1"] = "1 день";
+$MESS["SBT_PRODUCTVIEW_7"] = "неделю";
+$MESS["SBT_PRODUCTVIEW_30"] = "месяц";
+$MESS["SBT_PRODUCTVIEW_180"] = "полгода";
+$MESS["SBT_PRODUCTVIEW_DATE_FROM"] = "Проверять просматриваемые за период (дни)";
+$MESS["SBT_MODE_BASKET"] = "Корзина";
+$MESS["T_IBLOCK_DESC_LIST_TYPE"] = "Тип инфоблока";
+$MESS["T_IBLOCK_DESC_LIST_ID"] = "Инфоблок";
+$MESS["SBT_PRODUCTVIEW_PROPS"] = "Параметры, по которым фильтруются похожие товары";
+$MESS["SBT_SECTION_ID"] = "Раздел-родитель";
+$MESS["SBT_PRODUCTVIEW_PRICE"] = "Раздел-родитель";
+$MESS["SBT_PRODUCTVIEW_HIDE_NOT_AVAILABLE"] = "Не отображать товары, которых нет на складах";
+$MESS["SBT_PRODUCTVIEW_SORT_FIELD"] = "По какому полю сортируем элементы";
+$MESS["SBT_PRODUCTVIEW_SORT_ORDER"] = "Порядок сортировки элементов";
+$MESS["SBT_PRODUCTVIEW_LIMIT"] = "Количество позиций выборки, по умолчанию 10 000";
+$MESS["IBLOCK_SORT_ASC"] = "по возрастанию";
+$MESS["IBLOCK_SORT_DESC"] = "по убыванию";
+?>

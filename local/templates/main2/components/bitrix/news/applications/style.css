@@ -1,0 +1,15 @@
+.applications-section{
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.application-section-title{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.application-section-items li{
+    display: inline-block;
+    width: 20%;
+}

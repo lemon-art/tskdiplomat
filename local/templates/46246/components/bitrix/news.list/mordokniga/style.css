@@ -1,0 +1,16 @@
+.mordokniga{
+    margin-bottom: 20px;
+}
+.mordokniga .morda-item{
+    height: 190px;
+    overflow-y: hidden;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    padding-top: 7px;
+}
+.mordokniga img.morda{
+    float: left;
+    width: 125px;
+    height: auto;
+    margin: 0 20px 15px 7px;
+}

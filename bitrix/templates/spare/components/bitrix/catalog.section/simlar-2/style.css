@@ -1,0 +1,21 @@
+.catalog-price {
+	 color:red;
+}
+div.catalog-section table td {
+	padding-right:10px;
+	padding-top:10px;
+}
+.button_add {
+	background: url("http://tskdiplomat.ru/bitrix/templates/spare/images/bttns.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #2f2c2d !important;
+    cursor: pointer;
+    display: inline-block;
+    font: bold 12px "Arial" !important;
+    height: 19px !important;
+    padding: 0 10px;
+    text-decoration: none !important;
+	padding-top: 6px;
+}
+
+.

@@ -1,0 +1,35 @@
+<?
+$MESS["WSL_STEP1_TITLE"] = "Assistent für den Standortenimport";
+$MESS["WSL_STEP1_CONTENT"] = "Willkommen beim Import der Standorte in die<br /><b>Bitrix Software</b><br /><br />Drücken Sie auf \"Weiter\", um die Importoptionen festzulegen.";
+$MESS["WSL_STEP2_TITLE"] = "Dateien auswählen";
+$MESS["WSL_STEP2_GFILE_TITLE"] = "Wählen Sie Dateien aus:";
+$MESS["WSL_STEP2_GFILE_USSR"] = "Russland und GUS (Länder und Städte)";
+$MESS["WSL_STEP2_GFILE_UA"] = " ";
+$MESS["WSL_STEP2_GFILE_KZ"] = " ";
+$MESS["WSL_STEP2_GFILE_USA"] = "USA (Städte)";
+$MESS["WSL_STEP2_GFILE_CNTR"] = "Welt (Länder)";
+$MESS["WSL_STEP2_GFILE_NONE"] = "Keine";
+$MESS["WSL_STEP2_GFILE_FILE"] = "Datei hochladen";
+$MESS["WSL_STEP2_GFILE_ZIP"] = "PLZ";
+$MESS["WSL_STEP2_GFILE_ERROR"] = "Die Datei für den Import wurde nicht angegeben";
+$MESS["WSL_STEP2_GSYNC_TITLE"] = "Synchronisation";
+$MESS["WSL_STEP2_GSYNC_Y"] = "neue Daten mit bestehenden synchronisieren";
+$MESS["WSL_STEP2_GSYNC_N"] = "existierende Daten löschen";
+$MESS["WSL_STEP2_GSYNC_HINT"] = "Achtung! Die Synchronisation mit der Datenbank kann einige Zeit in Anspruch nehmen";
+$MESS["WSL_STEP5_TITLE"] = "Parameter";
+$MESS["WSL_STEP5_STEP_LENGTH_TITLE"] = "Schrittdauer (Sek)";
+$MESS["WSL_STEP5_STEP_LENGTH_HINT"] = "Geben Sie die gewünschte Schrittdauer an. Ändern Sie diesen Parameter nur, wenn Sie sicher wissen, dass die Seite in der angegebenen Zeit die Daten verarbeiten kann.";
+$MESS["WSL_STEP5_STEP_LENGTH_ERROR"] = "Sie müssen nicht leere Schrittdauer angeben";
+$MESS["WSL_STEP3_TITLE"] = "Dateien werden importiert.";
+$MESS["WSL_STEP3_LOADING"] = "Es wird geladen";
+$MESS["WSL_STEP3_ERROR_TRY"] = "Erneut versuchen";
+$MESS["WSL_STEP4_TITLE"] = "Dateien werden bearbeitet";
+$MESS["WSL_STEP4_LOADING"] = "Es wird bearbeitet...";
+$MESS["WSL_FINALSTEP_TITLE"] = "Der Assistent hat die Arbeit abgeschlossen";
+$MESS["WSL_FINALSTEP_BUTTONTITLE"] = "Fertig";
+$MESS["WSL_FINALSTEP_CONTENT"] = "Der Assistent hat Standortimport erfolgreich abgeschlossen.";
+$MESS["WSL_CANCELSTEP_TITLE"] = "Der Assistent wurde unterbrochen";
+$MESS["WSL_CANCELSTEP_BUTTONTITLE"] = "Schließen";
+$MESS["WSL_CANCELSTEP_CONTENT"] = "Der Assistent wurde unterbrochen. Import wurde nicht durchgeführt.";
+$MESS["NO_LOC_FILE"] = "Datei mit Standorten wurde nicht hochgeladen.";
+?>

@@ -1,0 +1,164 @@
+.news-detail .detail_picture{
+    float: left;
+    margin: 0 5% 5% 0;
+    width: 40%;
+    height: auto;
+    border: 15px solid #f9f9f9;
+    border-bottom-width: 30px;
+}
+
+.news-detail .news-content{
+    margin: 15px 0 15px 0;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.section-top-banner{
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.section-top-banner img{
+    width: 100%;
+    height: auto;
+}
+
+.cat-text{
+    overflow-y: hidden;
+    transition: all 0.6s;
+}
+.cat-text .cat-text-container{
+    max-height: 150px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    position: relative;
+}
+.cat-text .cat-text-container:after{
+    content: " ";
+    display: block;
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    top: 110px;
+    background-image: linear-gradient(to top, rgba(255,255,255,1),rgba(255,255,255,0));  
+    margin: 0;
+}
+
+.cat-text .cat-text-opener{ 
+    padding-top: 15px;
+    color: #fec40e;
+    border-bottom: dashed 1px #fec40e;
+    text-decoration: none !important;
+    cursor: pointer;    
+}
+
+.cat-text .cat-text-opener:hover{
+}
+
+.cat-text.in .cat-text-container{
+    max-height: 100%;
+}
+.cat-text.in .cat-text-container:after{display: none;}
+
+.cat-text .cat-text-opener .cat-close{display: none;} 
+.cat-text .cat-text-opener .cat-open{display: block;} 
+.cat-text.in .cat-text-opener .cat-open{display: none;} 
+.cat-text.in .cat-text-opener .cat-close{display: block;} 
+
+/*------- brands ------------*/
+.brands-list .brand-item .logo{
+    display: block;
+    height: 120px;
+    width: 260px;
+    overflow: hidden;
+}
+.brands-list .brand-item .logo img{
+    height: auto;
+    width: auto;
+}
+.brands-list .col-md-4:nth-child(3n+1) {clear: both;}
+
+.brand-detail img.detail_picture{
+    float: left;
+    margin: 0 5% 5% 0;
+}
+.brand-detail .product-section img.detail_picture{
+    height: 80px;
+    width: auto;
+    margin: 0 5% 0 0;
+}
+
+/*------- sections tree ------*/
+.catalog-all-sections a{display: block;font-weight: bold; font-size: 16px; text-transform: uppercase; padding-bottom: 7px;}
+.catalog-section-list ul li a{font-weight: bold; font-size: 16px; text-transform: uppercase; padding-bottom: 7px;}
+.catalog-section-list ul ul li:before{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
+    content: "\f105";
+    color: #fec40e;
+    margin-right: 1em;
+}
+.catalog-section-list ul ul{margin-left: 10px;}
+.catalog-section-list ul ul li a{font-weight: normal; font-size: 14px; text-transform: none; padding-bottom: 5px;}
+.catalog-section-list ul ul ul li a{font-weight: normal; font-size: 12px; padding-bottom: 3px;}
+
+/*------- section banners slider ----*/
+.section-top-banner .carousel-indicators{
+    bottom: -40px;
+}
+.section-top-banner .carousel-indicators li{
+    border-color: #fdc008;
+}
+.section-top-banner .carousel-indicators .active {
+    background-color: #fdc008;
+}
+.related-products .product-name{
+    margin: 0 0 21px 0;
+}
+.related-products .product-image{
+    height: 110px;
+    max-width: 110px;
+}
+.related-products .product-shop{
+    float: none;
+    width: 100%;
+}
+.related-products li.item{
+    width: 18%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;   
+    margin: 0 1% 15px;
+}
+
+/* min order value */
+.order-min-value .min-order-message{display: none;}
+.order-min-value.min-value .checkout{display: none;}
+.order-min-value.min-value .min-order-message{display: inline-block;}
+
+.order-min-value .checkout-disabled{
+	position:relative;
+	top:-9px;
+	display:inline-block;
+	padding:0 18px;
+	border-radius:3px;
+	background:#aaaaaa;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#aaaaaa), color-stop(100%,#cccccc));
+	background:-webkit-linear-gradient(top, #aaaaaa 0%,#cccccc 100%);
+	background:   -moz-linear-gradient(top, #aaaaaa 0%,#cccccc 100%);
+	background:    -ms-linear-gradient(top, #aaaaaa 0%,#cccccc 100%);
+	background:     -o-linear-gradient(top, #aaaaaa 0%,#cccccc 100%);
+	background:        linear-gradient(to bottom, #aaaaaa 0%,#cccccc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaaaaa', endColorstr='#cccccc',GradientType=0 );
+	color:#fff;
+	vertical-align:bottom;
+	text-decoration:none;
+	text-shadow:0 1px 0 #777777;
+	font-weight:bold;
+	line-height:36px;
+}

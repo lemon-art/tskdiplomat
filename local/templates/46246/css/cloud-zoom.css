@@ -1,0 +1,38 @@
+
+/* This is the moving lens square underneath the mouse pointer. */
+.cloud-zoom-lens {
+    margin:0;    /* Set this to minus the border thickness. */
+    background-color:#fff;
+    cursor:move;
+}
+
+/* This is for the title text. */
+.cloud-zoom-title {
+    font-family:Arial, Helvetica, sans-serif;
+    position:absolute !important;
+    background-color:#000;
+    color:#fff;
+    padding:3px;
+    width:100%;
+    text-align:center;
+    font-weight:bold;
+    font-size:10px;
+    top:0px;
+}
+
+/* This is the zoom window. */
+#cloud-zoom-big {
+    overflow:hidden;
+	left:-195px !important;
+	top: -195px !important;
+	width:308px !important;
+	height: 308px !important;
+	background-color:#fff;
+}
+
+/* This is the loading message. */
+.cloud-zoom-loading {
+	font-size:0;
+}
+
+.product-image .mousetrap {z-index:100 !important;}

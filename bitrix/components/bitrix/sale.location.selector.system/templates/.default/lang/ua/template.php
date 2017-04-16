@@ -1,0 +1,35 @@
+<?
+$MESS["SALE_SLSS_LOCATION_SELECTOR_TITLE"] = "Вибір місць розташування";
+$MESS["SALE_SLSS_CHOICE_DO"] = "Вибрати";
+$MESS["SALE_SLSS_CHOICE_REDO"] = "Змінити вибір";
+$MESS["SALE_SLSS_NONE_IS_SELECTED"] = "Місця розташування не вибрані";
+$MESS["SALE_SLSS_LOCATIONS"] = "Місця розташування";
+$MESS["SALE_SLSS_LOCATION_AVAILABLE"] = "Доступні місця розташування";
+$MESS["SALE_SLSS_LOCATION"] = "Місцезнаходження";
+$MESS["SALE_SLSS_LOCATION_GROUPS"] = "Групи місць розташування";
+$MESS["SALE_SLSS_FIND_LOCATION"] = "Знайти місце розташування";
+$MESS["SALE_SLSS_SELECTED_LOCATIONS"] = "Вибрані місця розташування";
+$MESS["SALE_SLSS_NAME_COLUMN"] = "Назва";
+$MESS["SALE_SLSS_RESET_FILTER"] = "Скинути пошук";
+$MESS["SALE_SLSS_APPLY_FILTER"] = "Знайти";
+$MESS["SALE_SLSS_TYPE_NOT_SELECTED"] = "Тип не обраний";
+$MESS["SALE_SLSS_LOCATION_SELECTOR_BUTTON_SAVE"] = "Застосувати";
+$MESS["SALE_SLSS_LOCATION_SELECTOR_BUTTON_CANCEL"] = "Скасувати";
+$MESS["SALE_SLSS_LOCATION_SELECTOR_ERROR_OCCURED"] = "На жаль, сталася помилка";
+$MESS["SALE_SLSS_LOCATION_SELECTOR_NOTHING_FOUND"] = "На жаль, нічого не знайдено";
+$MESS["SALE_SLSS_LOCATION_SELECTOR_SELECT_PROMPT"] = "Будь ласка, виберіть розташування з дерева місць розташування, або за допомогою рядка пошуку.";
+$MESS["SALE_SLSS_LOCATION_SELECTOR_NOTHING_SELECTED"] = "Місця розташування не вибрані.";
+$MESS["SALE_SLSS_LOCATION_SELECTOR_CHOOSE"] = "Вибрати відмічені місця розташування";
+$MESS["SALE_SLSS_LOCATION_SELECTOR_UNCHOOSE"] = "Відмінити вибір зазначених місць розташування";
+$MESS["SALE_SLSS_AND_N_LOCATIONS_TO_GO"] = "і ще #CNT# #PLURAL_FORM#";
+$MESS["SALE_SLSS_LOCATION_ELEMENT"] = "Місце розташування";
+$MESS["SALE_SLSS_LOCATION_ELEMENTA"] = "Місця розташування";
+$MESS["SALE_SLSS_LOCATION_ELEMENTOV"] = "Місць розташування";
+$MESS["SALE_SLSS_LOCATION_SELECTOR_SURE_CLEAN"] = "Ви впевнені, що ви хочете очистити список?";
+$MESS["SALE_SLSS_LOCATION_SELECTOR_LOC_TOTAL_SELECTED"] = "Обрано місць розташування";
+$MESS["SALE_SLSS_LOCATION_SELECTOR_GRP_TOTAL_SELECTED"] = "Обрано груп";
+$MESS["SALE_SLSS_LOCATION_SELECTOR_CLEAN_SELECTION"] = "Очистити список";
+$MESS["SALE_SLSS_AJAX_LOADING"] = "Завантаження...";
+$MESS["SALE_SLSS_AJAX_RETRY"] = "Спробувати знову";
+$MESS["SALE_SLSS_AJAX_LOAD_MORE"] = "Завантажити ще...";
+?>

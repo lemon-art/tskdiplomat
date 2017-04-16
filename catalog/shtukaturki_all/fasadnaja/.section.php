@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Фасадная";
+$arDirProperties = Array(
+
+);
+?>

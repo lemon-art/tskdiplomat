@@ -1,0 +1,56 @@
+.slides_block .slide {
+	width:980px;
+	padding:20px 0
+}
+.slides_block .pagination {
+	margin: 12px 0;
+	width: 577px;
+	text-align: center;
+	z-index: 137;
+	position: relative
+}
+.slides_block .pagination li {
+	display:inline-block;
+	list-style:none;
+	margin:0 6px;
+	width:19px;
+	height:19px;
+	padding:1px;
+}
+.slides_block .pagination li a {
+	display:block;
+	width:19px;
+	height:19px;
+	font-size:0
+}
+.slides_block .next,
+ .slides_block .prev {
+	 position:absolute;
+	 width:57px;
+	 height:58px;
+	 display:none;
+	 z-index:101;
+	 margin-top: -207px;
+ }
+.slides_block:hover .next,
+.slides_block:hover .prev{display:block}
+.slides_block .next{
+	left:50%;
+	margin-left:48px
+}
+.slides_block .prev{
+	left:50%;
+	margin-left:-489px
+}
+.slides_block .next,
+.slides_block .prev ,
+.slides_block .pagination li a {background:url("images/sprite.png") no-repeat}
+
+.slides_block .prev															{background-position:0 0}
+.slides_block .next															{background-position:0 -58px}
+.slides_block .next:active 													{background-position:0 -174px}
+.slides_block .prev:active 													{background-position:0 -116px}
+.slides_block .pagination li a 													{background-position:0 -257px}
+.slides_block .pagination li.current a 											{background-position:0 -238px}
+
+.slides_block .pagination li:before {content: none !important;}

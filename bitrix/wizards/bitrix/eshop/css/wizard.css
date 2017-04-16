@@ -1,0 +1,33 @@
+.inst-template-description{
+    border: 1px solid #fff;
+    border-radius: 3px;
+    height: 150px;
+    margin-bottom: 35px;
+    padding: 12px 15px 12px 12px;
+}
+
+.inst-template-description:hover {
+    border-color: #dbdee2;
+    -webkit-box-shadow: 0 4px 2px rgba(88,112,118,.1);
+    box-shadow: 0 4px 2px rgba(88,112,118,.1);
+}
+.inst-template-list-inp {
+    display: inline-block;
+    margin: 0 30px 0 0;
+    vertical-align: middle;
+    padding: 0;
+}
+.inst-template-list-img{
+    border: none;
+    display: inline-block;
+    margin: 0 37px 0 0;
+    vertical-align: middle;
+}
+.inst-template-list-label {
+    color: #545454;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    max-width: 440px;
+    vertical-align: middle;
+}

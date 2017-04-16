@@ -1,0 +1,15 @@
+bitrix/php_interface/dbconn.php
+bitrix/.settings.php
+/bitrix/managed_cache
+/bitrix/cache
+bitrix/backup
+/upload
+*.pdf
+*.txt
+*.xml
+/bitrix/html_pages
+bitrix/stack_cache
+/.htaccess
+robots.txt
+bitrix/tools
+urlrewrite.php

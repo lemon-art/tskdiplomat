@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Выравнивающая";
+$arDirProperties = Array(
+
+);
+?>

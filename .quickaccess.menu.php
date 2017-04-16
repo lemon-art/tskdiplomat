@@ -1,0 +1,32 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Мой раздел", 
+		"/personal/", 
+		Array(), 
+		Array("class"=>""), 
+		"" 
+	),
+	Array(
+		"Избранное", 
+		"/personal/wishlist/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Корзина", 
+		"/personal/cart/", 
+		Array(), 
+		Array("class"=>"top-link-cart"), 
+		"" 
+	),
+	Array(
+		"Заказы", 
+		"/personal/order/", 
+		Array(), 
+		Array("class"=>"top-link-checkout"), 
+		"" 
+	)
+);
+?>

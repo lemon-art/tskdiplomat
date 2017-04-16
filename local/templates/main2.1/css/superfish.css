@@ -1,0 +1,200 @@
+.nav-container {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 0;
+    background:url(../images/nav_corner.png) no-repeat 100% 0%;
+}
+.sf-menu {
+    background: url(../images/bg_nav.gif) 0 0 repeat-x;
+    border-top:solid 1px #dedfe3;
+    border-radius:6px 6px 0 0;
+    font-size: 13px;
+    line-height: 17px;
+    margin:0 -15px;
+}
+.sf-menu > li {
+    float: left;
+    text-align: left;
+    position: relative;
+    border-right: 1px solid #74787d;
+    z-index: 99;
+    margin-top:-1px;
+    font-family:'Open Sans';
+    font-size:19px;
+    font-weight:bold;
+    text-transform:uppercase;
+    padding:1px 0 0 0;
+}
+.sf-menu li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    padding:22px 10px 23px 10px;
+    -moz-text-shadow: 1px 1px 0px rgba (0,0,0,0.28);
+    -webkit-text-shadow: 1px 1px 0px rgba (0,0,0,0.28);
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.28); 
+}
+.sf-menu li.first a {
+    border-radius:6px 0 0 0;
+}
+.sf-menu > li > a > span {
+    cursor: pointer;
+    white-space: nowrap;
+}
+.sf-menu li ul a span {  white-space: normal;}
+.sf-menu > li.parent > a > span {  background: url(../images/marker-8.gif) center -59px no-repeat;}
+
+.sf-menu > li.sfHover > a,
+.sf-menu> li > a:hover,
+.sf-menu > li.active > a {
+    color: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ca0a6', endColorstr='#80858b');
+    background: -webkit-gradient(linear, left top, left bottom, from(#9ca0a6), to(#80858b));
+    background: -moz-linear-gradient(top, #9ca0a6, #80858b);
+    background: -o-linear-gradient(top, #9ca0a6, #80858b);
+    background: -ms-linear-gradient(top, #9ca0a6, #80858b);
+    border-bottom:solid 2px #fdc008;
+    padding-bottom:21px;
+}
+
+.sf-menu > li.sfHover > a span,
+.sf-menu > li > a:hover span,
+.sf-menu > li.active > a span {  color: #fff;}
+.sf-menu li a:hover {  text-decoration: none;}
+
+.sf-menu ul {
+    position: absolute;
+    top: -999em;
+    z-index: 99;
+  width: 240px;
+    display: none;
+    background: #41464b;
+    border:solid 1px #32373c;
+}
+.sf-menu li li {
+    border-bottom: 1px solid #32373c;
+    font-size:15px;
+    font-weight:normal;
+    text-transform:none;
+}
+.sf-menu li li.last {  border-bottom: none;}
+.sf-menu li li.sfHover,
+.sf-menu li li,
+.sf-menu li li:hover {
+    float: none;
+    border-right: none;
+    position: relative;
+}
+.sf-menu li li a,
+.sf-menu li.sfHover li a,
+.sf-menu li.active li a {
+    display:block;
+    background: none;
+    color: #fff;
+    padding: 11px 12px 13px 12px;
+    -moz-text-shadow:none;
+    -webkit-text-shadow:none;
+    text-shadow:none; 
+}
+.sf-menu li li > a:hover,
+.sf-menu li li.sfHover > a,
+.sf-menu li li.active > a {  color: #fdc008; background:#4f555b; }
+
+.sf-menu ul ul {
+    position: absolute;
+    top: -999em;
+    z-index: 100;
+    width: 192px;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+    left: 0px;
+    top: 63px;
+  /* match top ul list item height */
+}
+
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+    top: -999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+    left: 240px;
+  /* match ul width */
+    top: -1px;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+    top: -999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+    left: 240px;
+  /* match ul width */
+    top: -1px;
+}
+@media only screen and (min-width: 980px) {
+    #menu-icon,
+    .sf-menu-phone {  display: none !important;}
+}
+@media only screen and (max-width: 979px) {
+    .sf-menu,
+    .sf-menu-phone {display: none;}
+  /* menu icon */
+    .nav-container { background:none; margin: 0 -15px 0 -15px; padding: 0;}
+    #menu-icon {
+        display: block;
+        background: url(../images/menu-icon-bg.png) 95% 11px no-repeat #40454b;
+        border-bottom: 2px solid #fdc008;
+        border-top: 2px solid #fdc008;
+        font-size: 17px;
+        line-height: 21px;
+        color: #fff;
+        cursor: pointer;
+        text-transform: uppercase;
+        padding: 13px 0 0 20px;
+        height: 50px;
+        margin: 0;
+    }
+
+    #menu-icon.active { background-position: 95% -47px;  }
+
+    .sf-menu-phone {
+        background: #40454b;
+        position: relative;
+        padding: 13px 20px 20px;
+        z-index: 2;
+        margin: 0;
+    }
+    .sf-menu-phone li { padding: 8px 0;  position: relative; font-size: 18px;  }
+    .sf-menu-phone > li {  border-bottom: 1px solid #515050; }
+    .sf-menu-phone li a { display: inline-block;  color: #fff;  }
+    .sf-menu-phone li a:hover { color: #B90100; }
+    .sf-menu-phone li li {font-size: 14px; padding: 3px 0; }
+    .sf-menu-phone li li.last { padding-bottom: 0;  }
+    .sf-menu-phone li strong {
+        position: absolute;
+        display: block;
+        background: url(../images/toogle-button2.png) center -54px no-repeat;
+        top: 4px;
+        right: 0;
+        height: 24px;
+        width: 24px;
+    }
+    .sf-menu-phone li strong:hover { cursor: pointer; }
+    .sf-menu-phone li strong.opened { background-position: center 7px; }
+
+  /* dropdown */
+    .sf-menu-phone ul {  width: auto;  padding: 8px 0 0 20px;  display: none;  }
+    .sf-menu-phone > li.active > a > span {color: inherit;}
+    .sf-menu-phone > li.active > a,
+    .sf-menu-phone > li > a:hover { color: #fdc008;  }
+
+    .sf-menu-phone li li.active > a,
+    .sf-menu-phone li li a:hover {color: #fdc008;}
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    #menu-icon,
+    .sf-menu-phone {margin: 0;}
+}

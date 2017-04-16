@@ -1,0 +1,55 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Избранное");
+?><?$APPLICATION->IncludeComponent(
+	"fcm:wishlist.items", 
+	".default", 
+	array(
+		"COMPONENT_TEMPLATE" => ".default",
+		"IBLOCK_TYPE" => "",
+		"IBLOCK_ID" => "",
+		"ITEMS_LIMIT" => "10",
+		"CACHE_TYPE" => "A",
+		"CACHE_TIME" => "3600",
+		"ELEMENT_SORT_FIELD" => "sort",
+		"ELEMENT_SORT_ORDER" => "asc",
+		"ELEMENT_SORT_FIELD2" => "id",
+		"ELEMENT_SORT_ORDER2" => "desc",
+		"FILTER_NAME" => "",
+		"HIDE_NOT_AVAILABLE" => "N",
+		"ELEMENT_COUNT" => "9",
+		"LINE_ELEMENT_COUNT" => "3",
+		"PROPERTY_CODE" => array(
+			0 => "",
+			1 => "",
+		),
+		"OFFERS_LIMIT" => "5",
+		"SECTION_URL" => "",
+		"DETAIL_URL" => "",
+		"SECTION_ID_VARIABLE" => "SECTION_ID",
+		"PRODUCT_QUANTITY_VARIABLE" => "",
+		"SEF_MODE" => "N",
+		"CACHE_GROUPS" => "Y",
+		"CACHE_FILTER" => "N",
+		"ACTION_VARIABLE" => "action",
+		"PRODUCT_ID_VARIABLE" => "id",
+		"PRICE_CODE" => array(
+			0 => "RETAIL",
+		),
+		"USE_PRICE_COUNT" => "N",
+		"SHOW_PRICE_COUNT" => "1",
+		"PRICE_VAT_INCLUDE" => "Y",
+		"CONVERT_CURRENCY" => "Y",
+		"BASKET_URL" => "/personal/basket.php",
+		"USE_PRODUCT_QUANTITY" => "N",
+		"ADD_PROPERTIES_TO_BASKET" => "Y",
+		"PRODUCT_PROPS_VARIABLE" => "prop",
+		"PARTIAL_PRODUCT_PROPERTIES" => "N",
+		"PRODUCT_PROPERTIES" => array(
+		),
+		"DISPLAY_COMPARE" => "N",
+		"CURRENCY_ID" => "RUB",
+                "USE_SESSION" => "Y",
+	),
+	false
+);?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

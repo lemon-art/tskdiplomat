@@ -1,0 +1,3 @@
+<?
+$MESS["BPIEA_INVALID_CHILD"] = "!";
+?>

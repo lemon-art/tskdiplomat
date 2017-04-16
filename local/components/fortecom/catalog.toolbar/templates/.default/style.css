@@ -1,0 +1,14 @@
+.wishlist-items .item{
+    position: relative;
+}
+.wishlist-items .remove{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    color: #636971;
+} 
+
+.wishlist-items .remove:hover{color:#fec40e;}

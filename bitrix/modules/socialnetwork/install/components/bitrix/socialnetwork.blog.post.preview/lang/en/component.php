@@ -1,0 +1,9 @@
+<?
+$MESS["BLOG_POST_PREVIEW_TITLE"] = "Message";
+$MESS["BLOG_POST_PREVIEW_AUTHOR"] = "Created by";
+$MESS["BLOG_POST_PUBLISHED"] = "Published on";
+$MESS["BLOG_POST_PUBLISH_STATUS"] = "Status";
+$MESS["BLOG_POST_PUBLISH_STATUS_D"] = "Draft";
+$MESS["BLOG_POST_PUBLISH_STATUS_K"] = "Ready to publish";
+$MESS["BLOG_POST_PUBLISH_STATUS_P"] = "Published";
+?>

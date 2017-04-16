@@ -1,0 +1,30 @@
+<?
+$MESS["COMPANY_TITLE_UPDATE"] = "Edit Company #ID#";
+$MESS["COMPANY_TITLE_ADD"] = "New company";
+$MESS["COMPANY_SECTION_TITLE"] = "Companies";
+$MESS["COMPANY_TAB"] = "Companies";
+$MESS["COMPANY_TAB_DESCR"] = "Company";
+$MESS["COMPANY_LOCATION"] = "Address:";
+$MESS["COMPANY_ID"] = "ID:";
+$MESS["COMPANY_NAME"] = "Name:";
+$MESS["COMPANY_LOCATION_ID"] = "Location:";
+$MESS["COMPANY_CODE"] = "Code:";
+$MESS["COMPANY_XML_ID"] = "XML_ID:";
+$MESS["COMPANY_ADD_NEW"] = "Add Company";
+$MESS["COMPANY_ADD_NEW_ALT"] = "Add Company";
+$MESS["COMPANY_EDIT"] = "Edit";
+$MESS["COMPANY_EDIT_DESCR"] = "Edit";
+$MESS["COMPANY_DELETE"] = "Delete";
+$MESS["COMPANY_DELETE_DESCR"] = "Delete";
+$MESS["COMPANY_COMPANY"] = "Companies";
+$MESS["COMPANY_CONFIRM_DEL_COMPANY"] = "Are you sure you want to delete the company?";
+$MESS["NAME_EMPTY"] = "Please enter the company name..";
+$MESS["COMPANY_E_USER_FIELDS_ADD_HREF"] = "Add custom field";
+$MESS["COMPANY_ACTIVE"] = "Active:";
+$MESS["ERROR_NO_NAME"] = "Company name is missing.";
+$MESS["ERROR_NO_LOCATION_ID"] = "Company location is missing.";
+$MESS["COMPANY_DATE_CREATE"] = "Created on:";
+$MESS["COMPANY_DATE_MODIFY"] = "Modified on:";
+$MESS["COMPANY_CREATED_BY"] = "Created by:";
+$MESS["COMPANY_MODIFIED_BY"] = "Edited by:";
+?>

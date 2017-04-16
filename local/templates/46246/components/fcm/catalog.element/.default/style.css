@@ -1,0 +1,11 @@
+.catalog-price {
+	 color:red;
+}
+
+#buy_block .price  span#our_price_display > div {
+float:none;
+}
+
+#buy_block .price  span#our_price_display .measure{
+padding-left: 55px;
+}

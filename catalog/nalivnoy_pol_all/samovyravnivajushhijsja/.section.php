@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Самовыравнивающийся";
+$arDirProperties = Array(
+
+);
+?>

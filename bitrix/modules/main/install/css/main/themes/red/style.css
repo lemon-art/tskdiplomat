@@ -1,0 +1,17 @@
+.btn-themes {
+	outline: none;
+	background-color: #da3737;
+	border-color: #da3737;
+	color: #FFF;
+}
+.btn-themes:hover {
+	outline: none;
+	background-color: #e48d8d;
+	border-color: #e48d8d;
+	color: #FFF;
+}
+.btn-themes:active {
+	outline: none;
+	-webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+			box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}

@@ -1,0 +1,9 @@
+div.BxmodSContentBlock { width: 100%; margin: 25px 0 0 0; padding: 0; }
+div.BxmodSContentBlock h1 { font-size: 14px; font-weight: bold; margin: 0; padding: 0; }
+div.BxmodSContentBlock div.BxmodSContentText { margin: 10px 0 0 0; }
+div.BxmodSContentBlock div.BxmodSContentLinks { margin: 5px 0 0 0; }
+div.BxmodSContentBlock div.BxmodSContentText,
+div.BxmodSContentBlock div.BxmodSContentText *,
+div.BxmodSContentBlock div.BxmodSContentLinks * { font-size: 11px; }
+div.BxmodSContentBlock div.BxmodSContentText,
+div.BxmodSContentBlock div.BxmodSContentText * { text-align: justify; }

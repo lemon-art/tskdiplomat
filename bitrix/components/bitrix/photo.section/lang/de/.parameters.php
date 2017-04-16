@@ -1,0 +1,33 @@
+<?
+$MESS["IBLOCK_SORT_SHOWS"] = "Durchschnittlich angezeigt";
+$MESS["IBLOCK_SORT_SORT"] = "Sortierindex";
+$MESS["IBLOCK_SORT_TIMESTAMP"] = "Geändert";
+$MESS["IBLOCK_SORT_NAME"] = "Überschrift";
+$MESS["IBLOCK_SORT_ID"] = "ID";
+$MESS["IBLOCK_SORT_ACTIVE_FROM"] = "aktiv von";
+$MESS["IBLOCK_SORT_ACTIVE_TO"] = "aktiv bis";
+$MESS["IBLOCK_SORT_ASC"] = "aufsteigend";
+$MESS["IBLOCK_SORT_DESC"] = "absteigend";
+$MESS["IBLOCK_TYPE"] = "Informationsblocktyp";
+$MESS["IBLOCK_IBLOCK"] = "Informationsblock";
+$MESS["IBLOCK_LINE_ELEMENT_COUNT"] = "Anzahl der Fotos in einer Tabellenzeile";
+$MESS["IBLOCK_ELEMENT_SORT_FIELD"] = "Fotos sortieren nach";
+$MESS["IBLOCK_ELEMENT_SORT_ORDER"] = "Sortierordnung der Fotos im Bereich";
+$MESS["IBLOCK_CACHE_FILTER"] = "Cachen wenn der Filter aktiv ist";
+$MESS["IBLOCK_SECTION_ID"] = "Bereichs ID";
+$MESS["IBLOCK_FILTER_NAME_IN"] = "Array-Name mit den Werten zum Filtern der Elemente";
+$MESS["IBLOCK_PAGE_ELEMENT_COUNT"] = "Elemente pro Seite.";
+$MESS["IBLOCK_DETAIL_URL"] = "URL - Bereichs-Elemente";
+$MESS["IBLOCK_SECTION_URL"] = "URL - Bereichs-Inhalte";
+$MESS["IBLOCK_SECTION_CODE"] = "Bereichscode";
+$MESS["IBLOCK_FIELD"] = "Felder";
+$MESS["IBLOCK_PROPERTY"] = "Eigenschaften";
+$MESS["T_IBLOCK_DESC_PAGER_PHOTO"] = "Fotos";
+$MESS["T_IBLOCK_DESC_ADD_SECTIONS_CHAIN"] = "Bereich in der Navigationskette anzeigen";
+$MESS["T_IBLOCK_DESC_KEYWORDS"] = "Schlüsselwörter der Seite aus den Eigenschaften definieren.";
+$MESS["T_IBLOCK_DESC_DESCRIPTION"] = "Seitenbeschreibung aus den Eigenschaften definieren.";
+$MESS["CP_BPS_BROWSER_TITLE"] = "Titel für den Browserfenster aus den Eigenschaften definieren.";
+$MESS["CP_BPS_CACHE_GROUPS"] = "Zugriffsrechte berücksichtigen";
+$MESS["CP_BPS_SECTION_USER_FIELDS"] = "Bereichseigenschaften";
+$MESS["CP_BPS_SET_LAST_MODIFIED"] = "Im Header der Antwort den Zeitpunkt der Seitenänderung angeben";
+?>

@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Цементная";
+$arDirProperties = Array(
+
+);
+?>

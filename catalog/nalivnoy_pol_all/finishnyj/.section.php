@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Финишный";
+$arDirProperties = Array(
+
+);
+?>

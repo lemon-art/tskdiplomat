@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Гипсовая";
+$arDirProperties = Array(
+
+);
+?>

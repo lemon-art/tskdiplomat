@@ -1,0 +1,84 @@
+.catalog-price {
+	 color:red;
+}
+div.catalog-section table td {
+	padding-right:10px;
+	padding-top:10px;
+}
+
+#pagination .pagination {
+background: #E9E9E9;
+float: none;
+padding: 5px;
+}
+
+#pagination .pagination:after {
+content: '';
+clear:both;
+display: block;
+}
+
+.sorting {
+padding: 5px 0 0;
+text-align: right;
+}
+
+.sorting .sort{
+display: inline-block;
+vertical-align: middle;
+}
+
+.sorting .sort a{
+background: url('images/arrow_up.png') no-repeat 0 0;
+display: inline-block;
+height: 10px;
+padding: 
+text-decoration: none;
+width: 7px;
+}
+
+.sorting .sort a.desc{
+background: url('images/arrow_down.png') no-repeat 0 0;
+}
+
+.sorting .count{
+display: inline-block;
+margin-left: 30px;
+vertical-align: middle;
+}
+
+#product_list.list {
+padding: 0 0 0 20px;
+}
+
+.list li.ajax_block_product {
+min-height: 180px;
+height: auto;
+padding: 0;
+}
+
+.list li.ajax_block_product .center_block{
+padding: 10px 0 0 20px;
+}
+
+.list li.ajax_block_product .center_block .product_desc{
+font-size: 11px;
+font-family: "Arial";
+color: #999;
+text-decoration: none;
+text-transform: none!important;
+}
+
+.list li.ajax_block_product .right_block{
+width: 170px;
+}
+
+.list li.ajax_block_product .ajax_add_to_cart_button {
+text-align: center;
+width: 75px;
+}
+
+.list li .center_block a.product_link {
+display: inline-block;
+padding: 24px 0 0 0;
+}

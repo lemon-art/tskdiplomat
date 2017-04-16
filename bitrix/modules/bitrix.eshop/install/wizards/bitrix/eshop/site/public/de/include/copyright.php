@@ -1,0 +1,1 @@
+&copy; E-Shop für Möbel, 2013

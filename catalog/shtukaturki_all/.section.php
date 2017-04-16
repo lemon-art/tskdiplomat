@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Штукатурки";
+$arDirProperties = Array(
+
+);
+?>

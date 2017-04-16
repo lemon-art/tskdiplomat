@@ -1,0 +1,35 @@
+<?
+$MESS["WZD_OPTION_CATALOG_1"] = "Produkt";
+$MESS["WZD_OPTION_CATALOG_2"] = "Produkt hinzufьgen";
+$MESS["WZD_OPTION_CATALOG_3"] = "*Name";
+$MESS["WZD_OPTION_CATALOG_4"] = "* Symbolischer Code";
+$MESS["WZD_OPTION_CATALOG_5"] = "Bild";
+$MESS["WZD_OPTION_CATALOG_6"] = "Kurzbeschreibung";
+$MESS["WZD_OPTION_CATALOG_7"] = "Vollstдndige Beschreibung";
+$MESS["WZD_OPTION_CATALOG_8"] = "Eigenschaftswerte";
+$MESS["WZD_OPTION_CATALOG_9"] = "Katalogbereiche";
+$MESS["WZD_OPTION_CATALOG_20"] = "*Kommerzieller Katalog";
+$MESS["WZD_OPTION_CATALOG_21"] = "Bereich";
+$MESS["WZD_OPTION_CATALOG_22"] = "Bereich hinzufьgen";
+$MESS["WZD_OPTION_CATALOG_23"] = "Ьbergeordneter Bereich";
+$MESS["WZD_OPTION_CATALOG_24"] = "*Name";
+$MESS["WZD_OPTION_CATALOG_25"] = "* Symbolischer Code";
+$MESS["WZD_OPTION_CATALOG_26"] = "Bild";
+$MESS["WZD_OPTION_CATALOG_27"] = "Beschreibung";
+$MESS["WZD_OPTION_CATALOG_28"] = "Sortierung";
+$MESS["WZD_OPTION_CATALOG_30"] = "Bereiche";
+$MESS["WZD_OPTION_CATALOG_31"] = "Produktvarianten";
+$MESS["WZD_OPTION_CATALOG_32"] = "Farbe";
+$MESS["WZD_OPTION_CATALOG_33"] = "Breite";
+$MESS["CAT_OFFER_NAME_1"] = "Palm1";
+$MESS["CAT_OFFER_PRICE_11"] = "144.00";
+$MESS["CAT_OFFER_PRICE_12"] = "130.00";
+$MESS["CAT_OFFER_NAME_2"] = "Blum";
+$MESS["CAT_OFFER_PRICE_21"] = "220.00";
+$MESS["CAT_OFFER_PRICE_22"] = "200.00";
+$MESS["CAT_OFFER_PRICE_23"] = "250.00";
+$MESS["CAT_OFFER_COLOR_1"] = "weiЯ";
+$MESS["CAT_OFFER_COLOR_2"] = "Eichenfurnier";
+$MESS["CAT_OFFER_COLOR_3"] = "schwarz";
+$MESS["CURRENCY"] = "EUR";
+?>

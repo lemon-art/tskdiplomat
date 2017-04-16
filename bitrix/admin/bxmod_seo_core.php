@@ -1,0 +1,1 @@
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/bxmod.seo/admin/bxmod_seo_core.php");?>

@@ -1,0 +1,30 @@
+<?
+$MESS ['ELEMENT_ASSOC_TIP'] = "<i>nach Urheber</i> - der User kann nur Elemente sehen, die er erstellt hat;<br /><i>nach der Eigenschaft des Informationsblocks</i> - Sie können eine der Informationsblock-Eigenschaften wählen, gemäß denen die Userelemente gewählt werden.";
+$MESS ['SEF_MODE_TIP'] = "Wenn dieser Flag aktiv ist, wird die Unterstützung für die Suchmaschinen freundliche URLs aktiviert und das Ausfüllen der Einstellungsfelder der Adressen freigegeben.";
+$MESS ['LEVEL_LAST_TIP'] = "Wenn diese Option aktiv ist, können die Informationsblock-Elemente nur zur unteren Baumebene der Informationsblock-Bereiche hinzugefügt werden.";
+$MESS ['STATUS_TIP'] = "Wenn das Modul \"Workflow\" fehlt, können Sie wählen, ob die Arbeit mit beliebigen Elementen oder nur mit inaktiven möglich ist.<br />Wenn das Modul \"Workflow\" aktiviert ist, können Sie den Anzeigestatus der Elemente für die User bestimmen.";
+$MESS ['STATUS_NEW_TIP'] = "Beim fehlen des Moduls \"Workflow\" kann man einstellen, ob ein hinzugefügtes oder geändertes Dokument nach der archivierung deaktiviert wird.<br />Wenn das Modul \"Workflow\" vorhanden ist, wird in der Dropdown-Liste der Status, in den die vom User bearbeiteten oder erstellten Elemente überführt werden, gewählt.";
+$MESS ['MAX_USER_ENTRIES_TIP'] = "Mit diesem Feld kann man die Anzahl der Elemente, die von einem User hinzugefügt werden begrenzen.";
+$MESS ['IBLOCK_TYPE_TIP'] = "Wählen aus der angezeigten Liste einen Informationsblocktyp. Nachdem Sie <b><i>ok</i></b> gedrückt haben, werden Informationsblöcke vom ausgewählten Typ geladen.";
+$MESS ['IBLOCK_ID_TIP'] = "Wählen Sie ein Informationsblock aus. Wenn der Punkt (andere)-> gewählt ist, müssen Sie im Feld daneben die ID des Informationsblocks eingeben.";
+$MESS ['PROPERTY_CODES_TIP'] = "Wählen Sie Elementfelder des Informationsblocks und deren Eigenschaften, die in der Maske zum Bearbeiten des Informationsblocks ausgegeben werden.";
+$MESS ['DEFAULT_INPUT_SIZE_TIP'] = "Größe der Dateneingabefelder.";
+$MESS ['USER_MESSAGE_EDIT_TIP'] = "Die in diesem Feld angegebene Nachricht wird dem User nach der Speicherung des bearbeiteten Elements angezeigt.";
+$MESS ['USER_MESSAGE_ADD_TIP'] = "Die hier angegebene Nachricht wird dem User nach dem Hinzufügen des Elements angezeigt.";
+$MESS ['SEF_FOLDER_TIP'] = "Pfad zum Ordner,  mit dem die Komponente arbeitet. Der Pfad kann mit dem physischen Pfad übereinstimmen.";
+$MESS ['CUSTOM_TITLE_DATE_ACTIVE_FROM_TIP'] = "Hier wird der Feldbezeichnung, der den Usern angezeigt wird, angegeben.";
+$MESS ['CUSTOM_TITLE_DATE_ACTIVE_TO_TIP'] = "Hier wird der Feldbezeichnung, der den Usern angezeigt wird, angegeben.";
+$MESS ['CUSTOM_TITLE_DETAIL_PICTURE_TIP'] = "Hier wird der Feldbezeichnung, der den Usern angezeigt wird, angegeben.";
+$MESS ['CUSTOM_TITLE_DETAIL_TEXT_TIP'] = "Hier wird der Feldbezeichnung, der den Usern angezeigt wird, angegeben.";
+$MESS ['CUSTOM_TITLE_IBLOCK_SECTION_TIP'] = "Hier wird der Feldbezeichnung, der den Usern angezeigt wird, angegeben.";
+$MESS ['CUSTOM_TITLE_NAME_TIP'] = "Hier wird der Feldbezeichnung, der den Usern angezeigt wird, angegeben.";
+$MESS ['CUSTOM_TITLE_PREVIEW_PICTURE_TIP'] = "Hier wird der Feldbezeichnung, der den Usern angezeigt wird, angegeben.";
+$MESS ['CUSTOM_TITLE_PREVIEW_TEXT_TIP'] = "Hier wird der Feldbezeichnung, der den Usern angezeigt wird, angegeben.";
+$MESS ['CUSTOM_TITLE_TAGS_TIP'] = "Hier wird der Feldbezeichnung, der den Usern angezeigt wird, angegeben.";
+$MESS ['MAX_FILE_SIZE_TIP'] = "Mit diesem Feld kann man die Größe der importierten Daten begrenzen.";
+$MESS ['MAX_LEVELS_TIP'] = "Die Zahl, die in diesem Feld angegeben ist, grenzt die Anzahl der Informationsblock-Bereiche ein, in die ein Element hinzugefügt werden kann.";
+$MESS ['LIST_URL_TIP'] = "Hier wird der Pfad zur Seite mit der Liste der persönlichen Userelemente, die mit Hilfe der Komponente <i>Liste der eigenen Elemente</i> erstellt werden kann, angegeben.";
+$MESS ['USE_CAPTCHA_TIP'] = "Wenn diese Option aktiv ist, wird beim Hinzufügen eines neuen Elements das Bild und das Feld zur eingabe von CAPTCHA angezeigt.";
+$MESS ['PROPERTY_CODES_REQUIRED_TIP'] = "Zwischen den Feldern und Eigenschaften kann man die wählen, die auf jeden fall ausgefüllt werden müssen.";
+$MESS ['GROUPS_TIP'] = "Wählen Sie Usergruppen, die Elemente hinzufügen oder bearbeiten dürfen.";
+?>

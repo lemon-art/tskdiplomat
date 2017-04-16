@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Быстротвердеющий ";
+$arDirProperties = Array(
+
+);
+?>

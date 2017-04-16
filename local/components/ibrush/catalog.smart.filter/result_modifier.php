@@ -1,0 +1,2 @@
+<?global $sotbitFilterResult;  
+$sotbitFilterResult = $arResult;?>

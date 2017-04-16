@@ -1,0 +1,31 @@
+<?
+$MESS["COMPANY_TITLE_UPDATE"] = "Редактирование компании #ID#";
+$MESS["COMPANY_TITLE_ADD"] = "Новая компания";
+$MESS["COMPANY_SECTION_TITLE"] = "Компании";
+$MESS["COMPANY_TAB"] = "Компании";
+$MESS["COMPANY_TAB_DESCR"] = "Компания";
+$MESS["COMPANY_LOCATION"] = "Адрес:";
+$MESS["COMPANY_ID"] = "ID:";
+$MESS["COMPANY_NAME"] = "Название:";
+$MESS["COMPANY_LOCATION_ID"] = "Местоположение:";
+$MESS["COMPANY_CODE"] = "Код:";
+$MESS["COMPANY_XML_ID"] = "XML_ID:";
+$MESS["COMPANY_ADD_NEW"] = "Добавить компанию";
+$MESS["COMPANY_ADD_NEW_ALT"] = "Добавить компанию";
+$MESS["COMPANY_EDIT"] = "Изменить";
+$MESS["COMPANY_EDIT_DESCR"] = "Изменить";
+$MESS["COMPANY_DELETE"] = "Удалить";
+$MESS["COMPANY_DELETE_DESCR"] = "Удалить";
+$MESS["COMPANY_COMPANY"] = "Компании";
+$MESS["COMPANY_CONFIRM_DEL_COMPANY"] = "Вы уверены, что хотите удалить компанию?";
+$MESS["NAME_EMPTY"] = "Введите название компании.";
+$MESS["COMPANY_E_USER_FIELDS_ADD_HREF"] = "Добавить пользовательское поле";
+$MESS["COMPANY_ACTIVE"] = "Активность";
+$MESS["ERROR_NO_NAME"] = "Не указано название компании";
+$MESS["ERROR_NO_LOCATION_ID"] = "Не указано местоположение компании";
+$MESS["COMPANY_ACTIVE"] = "Активность:";
+$MESS["COMPANY_DATE_CREATE"] = "Дата создания:";
+$MESS["COMPANY_DATE_MODIFY"] = "Дата изменения:";
+$MESS["COMPANY_CREATED_BY"] = "Создан пользователем:";
+$MESS["COMPANY_MODIFIED_BY"] = "Изменен пользователем:";
+?>

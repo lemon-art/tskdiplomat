@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Герметики";
+$arDirProperties = Array(
+
+);
+?>
