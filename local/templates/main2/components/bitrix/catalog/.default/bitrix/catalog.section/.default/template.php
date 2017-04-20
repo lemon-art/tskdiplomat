@@ -38,9 +38,11 @@ foreach ($arResult['ITEMS'] as $arItem):
                 <span class="product-name after-name">
                       <a href="<?=$arItem['DETAIL_PAGE_URL']?>" title="<?=$arItem['NAME']?>"><?=$arItem['NAME']?></a>
                 </span>
-                <div class="desc_grid">
-                      <?=$arItem['PREVIEW_TEXT']?>
-                </div>
+				<?if ($arResult["SHOW_PREVIEW_TEXT"]):?>
+					<div class="desc_grid">
+						  <?=$arItem['PREVIEW_TEXT']?>
+					</div>
+				<?endif;?>
                 <div class="price-box">
 <?
 	if (!empty($arItem['MIN_PRICE']))

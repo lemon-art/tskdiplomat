@@ -463,4 +463,20 @@ if (!empty($arResult['ITEMS']))
 		}
 	}
 }
+//находим род категории
+$arResult["SHOW_PREVIEW_TEXT"] = true;
+$arSection = Array();
+$nav = CIBlockSection::GetNavChain($arResult["IBLOCK_ID"], $arResult["ID"]);
+while($arSectionPath = $nav->GetNext()){
+	$arSection[] =  $arSectionPath["ID"];
+}
+
+$dbRes = CIBlockSection::GetList(array(), Array("IBLOCK_ID" => $arResult["IBLOCK_ID"], "ID" => $arSection), false, array("UF_SHOW_PRTEXT"));
+while ($arCurSection = $dbRes->Fetch()){
+	if ( $arCurSection["UF_SHOW_PRTEXT"] ){
+		$arResult["SHOW_PREVIEW_TEXT"] = false;
+	}
+}
+
+
 ?>
