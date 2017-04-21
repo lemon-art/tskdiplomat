@@ -22,7 +22,8 @@ $count = 0;
 
 	$arUrls = $map -> GetTree($_SERVER["DOCUMENT_ROOT"]."/", 10); //получаем страницы из структуры сайта
 	$arUrls[] = '/catalog/';
-
+	$arUrls[] = '/by-applications/';
+	$arUrls[] = '/news/';
 	
 
 
@@ -46,7 +47,7 @@ $count = 0;
 
 	//новости
 	$arUrls = $map -> GetElementsUrl( 1 );
-	$arUrls[] = '/news/';
+	
 		
 	foreach ($arUrls as $arUrl){
 		$url = $siteName.$arUrl['URL'];
@@ -65,7 +66,6 @@ $count = 0;
 	
 	//бренды
 	$arUrls = $map -> GetElementsUrl( 32 );
-	$arUrls[] = '/news/';
 		
 	foreach ($arUrls as $arUrl){
 		$url = $siteName.$arUrl['URL'];
@@ -82,6 +82,44 @@ $count = 0;
 		$count++;
 	}
 	
+	//применение
+	$arUrls = $map -> GetSectionsUrl( 35 );
+	
+	
+	foreach ($arUrls as $arUrl){
+		$url = $siteName.$arUrl['URL'];
+		$lastUpdate = $arUrl['DATE'];						//получаем дату изменения
+		$changefreq = $arSetting[changefreq][0];
+		if ( in_array( $url, $arPriority ) ){
+			$priority = 1;
+		}
+		else {
+			$priority = 0.5;
+		}
+		$xml_data = $map -> sitemap_url_gen($url, $lastUpdate, $changefreq, $priority);
+		$parm = $map -> sitemap_file_save($xml_data, $parm);
+		$count++;
+		$arSectionUrls[] = $arUrl['URL'];
+	}
+	
+	
+	$arUrls = $map -> GetElementsUrl( 35 );
+	
+		
+	foreach ($arUrls as $arUrl){
+		$url = $siteName.$arUrl['URL'];
+		$lastUpdate = $arUrl['DATE'];						//получаем дату изменения
+		$changefreq = $arSetting[changefreq][0];
+			if ( in_array( $url, $arPriority ) ){
+				$priority = 1;
+			}
+			else {
+				$priority = 0.5;
+			}
+		$xml_data = $map -> sitemap_url_gen($url, $lastUpdate, $changefreq, $priority);
+		$parm = $map -> sitemap_file_save($xml_data, $parm);
+		$count++;
+	}
 	
 	//разделы
 	$arSectionUrls = Array();
