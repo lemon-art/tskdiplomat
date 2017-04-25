@@ -3523,6 +3523,18 @@ a.thumbnail:focus {
   padding: 9px;
   color: #555555;
 }
+#order_form_content label {
+    color: #000;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#order_form_content input[type=radio] {
+    margin: 0px;
+	margin-top: -3px;
+}
+
+
 
 
 
