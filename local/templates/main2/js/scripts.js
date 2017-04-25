@@ -177,7 +177,7 @@ function MarkAlreadyInCart (arid) { // меняем ссылки и текст �
 
 function Add2CartWindow (respond) {
         if(!jQuery('#add2cart-popup').length){
-            jQuery('body').append('<div  class="modal fade" id="add2cart-popup" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true"><div class="modal-dialog modal-dialog"><button type="button" class="btn-close" data-dismiss="modal" aria-hidden="true"></button><div class="modal-content"><div class="modal-header"><h2>Товар добавлен в корзину</h2></div><div class="modal-body"><ul class="products"></ul></div><div class="modal-footer"><button class="button btn-gray" onclick="jQuery(\'#add2cart-popup\').modal(\'hide\');">Продолжить покупки</button><button class="button" href="/personal/cart/">В корзину</button></div></div></div></div>');
+            jQuery('body').append('<div  class="modal fade" id="add2cart-popup" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true"><div class="modal-dialog modal-dialog"><button type="button" class="btn-close" data-dismiss="modal" aria-hidden="true"></button><div class="modal-content"><div class="modal-header"><h2>Товар добавлен в корзину</h2></div><div class="modal-body"><ul class="products"></ul></div><div class="modal-footer"><button class="button btn-gray" onclick="jQuery(\'#add2cart-popup\').modal(\'hide\');">Продолжить покупки</button><a class="button" href="/personal/cart/">В корзину</a></div></div></div></div>');
         }
         
         jQuery('#add2cart-popup .products').empty();

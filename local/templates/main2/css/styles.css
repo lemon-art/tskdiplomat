@@ -220,8 +220,8 @@ input.radio { margin-right:3px; }
 input.checkbox { margin-right:3px; }
 input.qty { color:#fec40e; width:40px !important; text-align: center; }
 button.button::-moz-focus-inner { padding:0; border:0; } /* FF Fix */
-button.button { -webkit-border-fit:lines; } /* <- Safari & Google Chrome Fix */
-button.button { 
+button.button, a.button { -webkit-border-fit:lines; } /* <- Safari & Google Chrome Fix */
+button.button, a.button { 
 	background:transparent;
 	border:0;
 	overflow:visible;
@@ -230,17 +230,19 @@ button.button {
 	margin:0;
 	width:auto;
 }
-button.button{ 
+button.button, a.button{ 
     float:left; 
 	text-align:center;
 	white-space:nowrap; 
 	padding:0;
 }
-button.button{padding:0 11px; display:block; float:left;}
+button.button, a.button{padding:0 11px; display:block; float:left;}
+
+a.button {margin-left: 10px;}
 
 button.button,
 .block-wishlist .actions a,
-.page-sitemap .links a {
+.page-sitemap .links a, a.button {
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fec611', endColorstr='#fdbd02'); /* IE6-9 */
 	background: -webkit-gradient(linear, left top, left bottom, from(#fec611), to(#fdbd02));
 	background: -moz-linear-gradient(top,  #fec611,  #fdbd02); /* firefox 3.6+ */
@@ -263,7 +265,7 @@ button.button,
 button.button.btn-gray,        
 button.button:hover,
 .block-wishlist .actions a:hover,
-.page-sitemap .links a:hover {
+.page-sitemap .links a:hover  {
 	  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b5b8bf', endColorstr='#969ba0'); /* IE6-9 */
 	  background: -webkit-gradient(linear, left top, left bottom, from(#b5b8bf), to(#969ba0));
 	  background: -moz-linear-gradient(top,  #b5b8bf,  #969ba0); /* firefox 3.6+ */

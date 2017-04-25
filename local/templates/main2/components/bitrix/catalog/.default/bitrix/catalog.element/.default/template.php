@@ -164,7 +164,7 @@ $boolDiscountShow = (0 < $minPrice['DISCOUNT_DIFF']);
                     <div class="add-to-cart">
                         <div class="qty-block">
                             <label for="qty">Количество:</label>
-                            <input type="text" name="qty" id="qty" maxlength="12" value="1" title="Qty" class="input-text qty" />
+                            <input type="text" name="qty" id="add2cart_qty" maxlength="12" value="1" title="Qty" class="input-text qty" />
                         </div>
                         <?/*
                         <button type="button" title="В корзину" class="button btn-cart add2cart" onclick="productAddToCartForm.submit(this)"><span><span>В корзину</span></span></button>
