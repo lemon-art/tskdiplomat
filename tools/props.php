@@ -35,11 +35,12 @@ $arSections = getSectionList(
 <style>
 .prop_list {
 	list-style: none;
+	float: left;
+	width: 30%;
 }
 
 .prop_list li{
-	float: left;
-	width: 30%;
+
 }
 
 TABLE {
@@ -79,21 +80,31 @@ TABLE {
 			</select>
 			
 		</label>
-
+		<div style="clear: both;"></div>
 		<ul class="prop_list">
 	<?
-
-
+	$count = 0;
+	$properties = CIBlockProperty::GetList(Array("name"=>"asc"), Array("ACTIVE"=>"Y", "IBLOCK_ID"=>$IBLOCK_ID));
+	while ($prop_fields = $properties->GetNext()){
+		$count++;
+	}
+	$n = 0;
 	$properties = CIBlockProperty::GetList(Array("name"=>"asc"), Array("ACTIVE"=>"Y", "IBLOCK_ID"=>$IBLOCK_ID));
 	while ($prop_fields = $properties->GetNext()):?>
+		
 		<?if ( $prop_fields["SORT"] > 0 || $prop_fields["CODE"] == 'BREND'):?>
+			<?if ( ($n == round($count/3, 0, PHP_ROUND_HALF_UP)) || ($n == 2*round($count/3, 0, PHP_ROUND_HALF_UP)) ):?>
+				</ul>
+				<ul class="prop_list">
+			<?endif;?>
 			<li>
 				<label>
 					<input type="checkbox" class="check" name="prop[<?=$prop_fields["ID"]?>]" <?if ( in_array($prop_fields["ID"], $arProp) ):?>checked<?endif;?>>  <?=$prop_fields["NAME"]?>
 				<label>
 			</li>
+			<?$n++;?>
 		<?endif;?>
-
+		
 
 	<?endwhile;?>
 		</ul>
