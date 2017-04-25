@@ -103,7 +103,7 @@ jQuery(document).ready(function(){
 			)
 		}
 		else {
-			jQuery('.block-cart-header .summary, .block-cart-header .cart-content, .block-cart-header .empty').hover(
+			jQuery('.block-cart-header, .block-cart-header .cart-content, .block-cart-header .empty').hover(
 				function(){jQuery('.block-cart-header .cart-content').stop(true, true).slideDown(400);},
 				function(){	jQuery('.block-cart-header .cart-content').stop(true, true).delay(400).slideUp(300);}
 			);
