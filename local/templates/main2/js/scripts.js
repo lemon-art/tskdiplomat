@@ -97,7 +97,7 @@ jQuery(document).ready(function(){
 	/*********************************************************************************************************** Header Cart *********************************************************************/
 		jQuery('.block-cart-header .cart-content').hide();
 		if (jQuery('.container').width() < 800) {
-			jQuery('.block-cart-header .summary, .block-cart-header .cart-content, .block-cart-header .empty').click(function(){
+			jQuery('.block-cart-header, .block-cart-header .cart-content, .block-cart-header .empty').click(function(){
 					jQuery('.block-cart-header .cart-content').stop(true, true).slideToggle(300);
 				}
 			)
