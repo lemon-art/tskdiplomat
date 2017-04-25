@@ -84,7 +84,7 @@ foreach ($arResult['ITEMS'] as $arItem):
 
                     <div class="actions">
                         <?//if($arItem['CAN_BUY']):?>
-                            <button type="button" title="<?=GetMessage('CT_BCS_TPL_MESS_BTN_ADD_TO_BASKET')?>" class="button btn-cart add2cart add2cart_<?=$arItem['ID']?>" data-id="<?=$arItem['ID']?>" onclick="setLocation('<?=$arItem['BUY_LINK']; ?>')"  rel="nofollow">
+                            <button type="button" title="<?=GetMessage('CT_BCS_TPL_MESS_BTN_ADD_TO_BASKET')?>" class="button btn-cart add2cart add2cart_<?=$arItem['ID']?>" data-id="<?=$arItem['ID']?>" rel="nofollow">
                                     <?=GetMessage('CT_BCS_TPL_MESS_BTN_ADD_TO_BASKET')?>
                             </button>
                         <?//endif;?>
@@ -180,7 +180,7 @@ endforeach;?>
                         </div>
                         
                         <?//if($arItem['CAN_BUY']):?>
-                            <button type="button" title="<?=GetMessage('CT_BCS_TPL_MESS_BTN_ADD_TO_BASKET')?>" class="button btn-cart" onclick="setLocation('<?=$arItem['BUY_LINK']; ?>')"  rel="nofollow">
+                            <button type="button" title="<?=GetMessage('CT_BCS_TPL_MESS_BTN_ADD_TO_BASKET')?>" class="button btn-cart add2cart add2cart_<?=$arItem['ID']?>" data-id="<?=$arItem['ID']?>" rel="nofollow">
                                 <span>
                                     <span><?=GetMessage('CT_BCS_TPL_MESS_BTN_ADD_TO_BASKET')?></span>
                                 </span>
