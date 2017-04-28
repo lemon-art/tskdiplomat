@@ -38,7 +38,7 @@ foreach ($arResult['ITEMS'] as $arItem):
                 <span class="product-name after-name">
                       <a href="<?=$arItem['DETAIL_PAGE_URL']?>" title="<?=$arItem['NAME']?>"><?=$arItem['NAME']?></a>
                 </span>
-				<?if ($arResult["SHOW_PREVIEW_TEXT"]):?>
+				<?if ($arResult["SHOW_PREVIEW_TEXT"] && $arItem['PREVIEW_TEXT']):?>
 					<div class="desc_grid">
 						  <?=$arItem['PREVIEW_TEXT']?>
 					</div>
