@@ -316,14 +316,27 @@ $boolDiscountShow = (0 < $minPrice['DISCOUNT_DIFF']);
                     <?foreach($arResult['DISPLAY_PROPERTIES'] as $key => $arProperty):?>
                         <li>
                         <span class="name">
-                                <?=(strlen(GetMessage('TPL_PROPERTY_NAME_'.$key)) > 0)?GetMessage('TPL_PROPERTY_NAME_'.$key):$arProperty['NAME'];?>
+                               <?=(strlen(GetMessage('TPL_PROPERTY_NAME_'.$key)) > 0)?GetMessage('TPL_PROPERTY_NAME_'.$key):$arProperty['NAME'];?>
                         </span>
                         <span class="value">
+							<?if ( $arProperty["CODE"] == 'APPLICATION' ):?>
+								<?$arProp = Array();?>
+								<?foreach ( $arProperty['DISPLAY_VALUE'] as $keyProp => $valProp):?>
+									<?$arProp[] = strip_tags($valProp);?>
+								<?endforeach;?>
+
+								<?if(is_array($arProperty['DISPLAY_VALUE'])):?>
+                                        <?=implode(' / ',$arProp)?>
+                                <?else:?>
+                                        <?=strip_tags($arProperty['DISPLAY_VALUE'])?>
+                                <?endif;?>
+							<?else:?>
                                 <?if(is_array($arProperty['DISPLAY_VALUE'])):?>
                                         <?=implode(' / ',$arProperty['DISPLAY_VALUE'])?>
                                 <?else:?>
                                         <?=$arProperty['DISPLAY_VALUE']?>
                                 <?endif;?>
+							<?endif;?>
                         </span>
                         </li>
                     <?endforeach;?>
