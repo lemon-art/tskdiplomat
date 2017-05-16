@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Гарантия, гарантийное обслуживание ТСК Дипломат");
 $APPLICATION->SetTitle("Гарантия");
 ?>
 <h1>Гарантия</h1>

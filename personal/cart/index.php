@@ -1,7 +1,8 @@
 <?
 if($_REQUEST["ajax"]=="Y"):
 	$AJAX_MODE = true;
-	require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");?>
+	require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
+$APPLICATION->SetPageProperty("description", "Корзина");?>
         <?$APPLICATION->IncludeComponent("bitrix:eshop.sale.basket.basket", "ajax", Array(
 	"COUNT_DISCOUNT_4_ALL_QUANTITY" => "Y",	// Рассчитывать скидку для каждой позиции (на все количество товара)
 	"COLUMNS_LIST" => array(	// Выводимые колонки

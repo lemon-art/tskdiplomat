@@ -3163,3 +3163,9 @@ m_bizproc=15.6.2&bitm_eshopapp=15.0.0&bitm_vote=15.5.0&bitm_lists=15.5.2&bitm_ca
 2016-09-14 16:40:24 -  - exec CUpdateClient::GetHTTPPage
 2016-09-14 16:40:25 -  - TIME GetUpdatesList(request) 0.373 sec
 2016-09-14 16:40:25 -  - exec CUpdateClient::ParseServerData
+2017-05-15 16:27:16 -  - exec CUpdateClient::GetUpdatesList
+2017-05-15 16:27:16 -  - exec CUpdateClient::CollectRequestData
+2017-05-15 16:27:17 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=16.0.12&VERSION=16.0.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_URSA=256&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=tskdiplomat.ru&CHHB=tskdiplomat.ru%3A80&CSAB=127.0.0.1&CANGZIP=N&CLIENT_PHPVER=5.6.26&stable=Y&NGINX=Y&rerere=Y&bitm_main=16.0.9&bitm_abtest=16.0.0&bitm_eshopapp=15.0.0&bitm_blog=16.0.4&bitm_search=16.0.0&bitm_forum=16.0.0&bitm_scale=16.0.0&bitm_fileman=16.0.4&bitm_pull=16.0.2&bitm_mobileapp=16.0.1&bitm_vote=15.5.0&bitm_im=16.0.6&bitm_statistic=15.0.1&bitm_support=16.0.0&bitm_clouds=16.0.0&bitm_compression=16.0.0&bitm_form=15.0.2&bitm_sale=15.0.9&bitm_security=16.0.1&bitm_seo=16.0.2&bitm_photogallery=16.0.1&bitm_socialservices=16.5.1&bitm_mail=16.0.3&bitm_subscribe=15.0.2&bitm_highloadblock=16.0.1&bitm_learning=15.5.0&bitm_socialnetwork=16.0.5&bitm_bizproc=16.0.1&bitm_wiki=16.0.3&bitm_cluster=16.0.0&bitm_report=16.0.0&bitm_sender=16.0.1&bitm_translate=14.0.0&bitm_lists=16.0.1&bitm_bitrixcloud=16.0.0&bitm_currency=16.0.0&bitm_advertising=16.0.1&bitm_iblock=15.5.12&bitm_storeassist=16.0.0&bitm_bizprocdesigner=16.0.0&bitm_conversion=15.5.6&bitm_catalog=16.0.0&bitm_ldap=15.5.0&bitm_workflow=14.5.1&bitm_calendar=16.0.3&bitm_idea=15.0.1&bitm_webservice=16.0.0&bitm_perfmon=16.0.0&bitl_en=&bitl_ru=&bith_ru=&bith_en=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=N
+2017-05-15 16:27:17 -  - exec CUpdateClient::GetHTTPPage
+2017-05-15 16:27:17 -  - TIME GetUpdatesList(request) 0.254 sec
+2017-05-15 16:27:17 -  - exec CUpdateClient::ParseServerData

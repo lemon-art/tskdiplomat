@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Новости и акции компании ТСК Дипломат");
 $APPLICATION->SetTitle("Официальная информация");
 ?>
 <?$APPLICATION->IncludeComponent(

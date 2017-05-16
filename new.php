@@ -1,6 +1,8 @@
 <?
 // подключение служебной части пролога
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
+$APPLICATION->SetPageProperty("title", "Новинки стройматериалов от ТСК Дипломат");
+$APPLICATION->SetPageProperty("description", "Новые тенденции строительных материалов и других востребованных товаров. Будьте в курсе новинок вместе с ТСК Дипломат.");
 
 // здесь можно задать например, свойство страницы
 $APPLICATION->SetPageProperty('PAGE_LAYOUT','col2-right');

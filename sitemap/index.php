@@ -1,8 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Карта сайта");
-$APPLICATION->SetPageProperty("description", "");
-$APPLICATION->SetPageProperty("keywords", "");
+$APPLICATION->SetPageProperty("title", "Карта сайта ТСК Дипломат");
 $APPLICATION->SetTitle("Карта сайта");
 ?> 
 

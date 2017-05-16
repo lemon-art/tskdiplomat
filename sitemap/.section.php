@@ -1,5 +1,7 @@
 <?
 $sSectionName = "Карта сайта";
-$arDirProperties = array(
+$arDirProperties = Array(
+   "description" => "Навигация по сайту ТСК Дипломат - весь перечень категорий строительных товаров.",
+   "title" => "Карта сайта ТСК Дипломат"
 );
 ?>
