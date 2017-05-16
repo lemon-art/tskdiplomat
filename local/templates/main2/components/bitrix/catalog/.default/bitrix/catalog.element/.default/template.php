@@ -294,7 +294,7 @@ $boolDiscountShow = (0 < $minPrice['DISCOUNT_DIFF']);
                             </div>
                             <span class="cat-text-opener">
                                 <span class="cat-open">Показать больше <i class="fa fa-chevron-down"></i></span>
-                                <span class="cat-close">Показать меньше <i class="fa fa-chevron-up"></i></span>
+                                <span class="cat-close">Свернуть <i class="fa fa-chevron-up"></i></span>
                             </span>
                         </div>
                     <?}else{?>
