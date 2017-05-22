@@ -1,5 +1,23 @@
 jQuery(document).ready(function(){
 
+	//копируем и выводим сео текст для моб версии, который в обычной версии выводится под фильтром
+	if ( document.body.clientWidth < 720 ){
+		jQuery('.bottom_desc_main').html( jQuery('.bottom_desc').html() );
+	}
+
+	jQuery(window).on('resize', function() {
+		if ( document.body.clientWidth < 720 ){
+			jQuery('.bottom_desc_main').html( jQuery('.bottom_desc').html() );
+		}
+		else {
+			jQuery('.bottom_desc_main').html('');
+		}
+	});
+		
+
+
+
+
 	/*********************************************************************************************************** Superfish Menu *********************************************************************/
 	/* toggle nav */
 	jQuery("#menu-icon").on("click", function(){

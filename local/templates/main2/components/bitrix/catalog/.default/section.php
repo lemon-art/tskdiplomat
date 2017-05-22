@@ -140,11 +140,11 @@ if ($isFilter)
 //global $USER;
 //if ($USER->IsAdmin()):
 ?>
-
-<?
-$APPLICATION->ShowViewContent('sotbit_seometa_bottom_desc');//вывод нижнего описания
-?>
-
+<div class="bottom_desc">
+	<?
+	$APPLICATION->ShowViewContent('sotbit_seometa_bottom_desc');//вывод нижнего описания
+	?>
+</div>
 <?//endif;?>
 		
 		
@@ -409,6 +409,11 @@ $APPLICATION->ShowViewContent('sotbit_seometa_add_desc');//вывод доп. о
 
 	
 	?>
+	
+	
+	<div class="bottom_desc_main">
+
+	</div>
     </div>
 </div>
 <!-- catalog section
