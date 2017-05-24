@@ -107,4 +107,6 @@ foreach ($arResult['PICTURES'] as $k=>$i){
 if(count($arResult['DISPLAY_PROPERTIES']['FILES']['VALUE']) == 1){
     $arResult['DISPLAY_PROPERTIES']['FILES']['FILE_VALUE'] = array($arResult['DISPLAY_PROPERTIES']['FILES']['FILE_VALUE']);
 }
+
+
 ?>

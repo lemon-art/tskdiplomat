@@ -307,6 +307,10 @@ $boolDiscountShow = (0 < $minPrice['DISCOUNT_DIFF']);
             $arPropertyFiles = $arResult['DISPLAY_PROPERTIES']['FILES'];
             unset($arResult['DISPLAY_PROPERTIES']['FILES']);
         }?>
+		<?if(!empty($arResult['DISPLAY_PROPERTIES']['VIDEO'])){
+            $arPropertyVideo = $arResult['DISPLAY_PROPERTIES']['VIDEO'];
+            unset($arResult['DISPLAY_PROPERTIES']['VIDEO']);
+        }?>
         <?if(!empty($arResult['DISPLAY_PROPERTIES'])){?>
         <div class="box-collateral box-description">
             <h2>Характеристики</h2>
@@ -345,6 +349,27 @@ $boolDiscountShow = (0 < $minPrice['DISCOUNT_DIFF']);
             </div>
         </div>
         <?}?>
+		
+		<?if(is_array($arPropertyVideo)):?>
+			<div class="box-collateral box-description">
+				<h2>Видео</h2>
+				<div class="box-collateral-content product_video">
+					<div class="std">
+						<?foreach ($arPropertyVideo['VALUE'] as $arFile):
+							?>
+							
+								<iframe width="560" height="315" src="<?=$arFile?>" frameborder="0" allowfullscreen></iframe>
+								<br><br>
+						<?endforeach;?>
+						   
+					</div>
+				</div>
+			</div>     
+        <?endif;?>
+		
+		
+		
+		
         <?if(is_array($arPropertyFiles)):?>
         <div class="box-collateral box-description">
             <h2>Файлы</h2>

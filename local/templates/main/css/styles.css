@@ -3430,6 +3430,9 @@ a.thumbnail:focus {
   color: #555555;
 }
 
+#order_form_content label {
+    color: #000;
+}
 
 
 
